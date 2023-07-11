@@ -16,7 +16,7 @@ body{
 
 /* Header */
 header{
-    background: #191970;
+    background: #000000;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
@@ -30,7 +30,7 @@ header a{
     font-size: 16px;
 }
 
-header ul {
+header ul{
     margin: 0;
     padding: 0;
 }
@@ -41,3 +41,15 @@ header li{
     padding: 0 20px 0 20px;
 }
 
+header #branding{
+    float: left;
+}
+
+header #branding img{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
