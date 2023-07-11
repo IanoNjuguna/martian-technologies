@@ -53,3 +53,10 @@ header nav{
     float: right;
     margin-top: 10px;
 }
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bolder;
+}
+
+/* Showcase */
