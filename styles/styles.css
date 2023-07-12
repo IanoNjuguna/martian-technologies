@@ -125,3 +125,10 @@ header a:hover{
 }
 
 /* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #000000;
+    text-align: center;
+}
