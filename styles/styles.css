@@ -28,6 +28,14 @@ ul{
     color: #ffffff;
 }
 
+.dark{
+    padding: 15px;
+    background:#000000;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Header */
 header{
     background: #000000;
@@ -61,6 +69,11 @@ header #branding img{
 header nav{
     float: right;
     margin-top: 10px;
+}
+
+header .current a{
+    color:#e8491d;
+    font-weight: bolder;
 }
 
 header a:hover{
@@ -122,6 +135,19 @@ header a:hover{
 
 #boxes .box img{
     width: 90px;
+}
+
+/* Side Bar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Article (main-col) */
+article#main-col{
+    float: left;
+    width: 65%;
 }
 
 /* Footer */
