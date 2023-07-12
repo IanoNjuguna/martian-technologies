@@ -60,3 +60,9 @@ header a:hover{
 }
 
 /* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url("../assets/astronaut-in-desert.png")  no-repeat;
+    text-align: center;
+    color: #000000;
+}
