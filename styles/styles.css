@@ -185,7 +185,7 @@ footer{
 }
 
 /* Media Queries */
-@media (max-width: 500px){
+@media all and (max-width: 390px){
     header #branding,
     header nav,
     header nav li,
@@ -208,6 +208,10 @@ footer{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-top: 0;
 }
+
+    #span-heading{
+        font-size: 35px;
+    }
 
     #showcase h1{
         margin-top: 40px;
