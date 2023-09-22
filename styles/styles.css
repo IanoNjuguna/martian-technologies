@@ -185,7 +185,7 @@ footer{
 }
 
 /* Media Queries */
-@media all and (max-width: 768px){
+/*@media all and (max-width: 768px){
 
     .container{
         overflow: visible;
@@ -230,4 +230,9 @@ footer{
         width: 100%;
         margin-bottom: 5px;
     }
+}*/
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minimax(180px, 1fx));
 }
