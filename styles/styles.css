@@ -86,6 +86,11 @@ header a:hover{
     font-weight: bolder;
 }
 
+section #brand-name{
+    font-size: 36px; /* Fallback */ 
+    font-size: 5.4vmax;
+}
+
 /* Showcase */
 #showcase{
 /*    min-height: 30px;*/
