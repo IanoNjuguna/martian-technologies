@@ -189,7 +189,7 @@ footer{
 @media all and (max-width: 768px){
 
     .container{
-        overflow: hidden;
+        overflow: auto;
     }
 
     header #branding,
