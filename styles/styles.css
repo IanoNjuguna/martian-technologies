@@ -186,10 +186,10 @@ footer{
 }
 
 /* Media Queries */
-/*@media all and (max-width: 768px){
+@media all and (max-width: 768px){
 
     .container{
-        overflow: visible;
+        overflow: auto;
     }
 
     header #branding,
@@ -211,7 +211,7 @@ footer{
 
     #brand-name,
     #heading{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
         margin-top: 0;
 }
 
@@ -222,7 +222,8 @@ footer{
     #newsletter button,
     .quote button{
         display: block;
-        width: 100%;
+        width: 45%;
+        float: right;
     }
 
     #newsletter form input[type="email"],
@@ -231,9 +232,4 @@ footer{
         width: 100%;
         margin-bottom: 5px;
     }
-}*/
-.grid {
-    display: grid;
-    grid-template-columns:
-        repeat(auto-fit, minimax(180px, 1fx));
 }
