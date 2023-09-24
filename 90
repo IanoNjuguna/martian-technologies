@@ -90,7 +90,7 @@ header a:hover{
 #showcase{
 /*    min-height: 30px;*/
     object-fit: cover;
-    background: url("../assets/showcase-image.jpg") no-repeat -2700px -5320px;
+    background: url("../assets/showcase-image.jpg") no-repeat -100px -520px;
     text-align: center;
     color: #ffffff;
 }
